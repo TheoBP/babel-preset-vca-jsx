@@ -1,6 +1,6 @@
 const syntaxJsx = require('@babel/plugin-syntax-jsx').default;
 
-const importSource = '@vue/composition-api';
+const importSource = 'vue';
 
 const hasJSX = (t, path) => {
     const JSXChecker = {
